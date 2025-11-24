@@ -1,7 +1,7 @@
 <h1 align="center">Hello World 👋, I'm Daniel Narbón</h1>
 <h3 align="center">A passionate electronics engineer from Barcelona, Spain</h3>
 
-I have experience working at University of Barcelona as a researcher where in between many other things, lead to the publication of [this paper](doi.org/10.1038/s41528-024-00374-4) on flexible electronics.
+I have experience working at University of Barcelona as a researcher where in between many other things, lead to the publication of [this paper](https://doi.org/10.1038/s41528-024-00374-4) on flexible electronics.
 
 <img width="1018" height="858" alt="Captura de pantalla 2025-11-24 213818" src="https://github.com/user-attachments/assets/560e43db-410b-4f67-836b-2d16c32860f4" />
 
