@@ -83,15 +83,15 @@ Mechatronic system that keeps a beam level using two BLDC motors, an IMU (sensor
 ### Control and sensor fusion
 
 <p align="center">
-  <img width="414" height="270" alt="balancing_beam_sensor_fusion_plot" src="https://github.com/user-attachments/assets/86158886-1499-40fd-814f-d9411095398a" />
-  <br/>
-  <sub>Sensor fusion: accelerometer + gyroscope combined via complementary filter for angle estimation.</sub>
-</p>
-
-<p align="center">
   <img width="1365" height="503" alt="balancing_beam_FreeRTOS_architecture" src="https://github.com/user-attachments/assets/1742c542-3495-4d53-be28-c965c5f1eb96" />
   <br/>
   <sub>FreeRTOS architecture: IMU sampling, angle estimation, PID control and motor command tasks.</sub>
+</p>
+
+<p align="center">
+  <img width="414" height="270" alt="balancing_beam_sensor_fusion_plot" src="https://github.com/user-attachments/assets/86158886-1499-40fd-814f-d9411095398a" />
+  <br/>
+  <sub>Sensor fusion: accelerometer + gyroscope combined via complementary filter for angle estimation.</sub>
 </p>
 
 ### Custom PCBs (controller + sensor board)
