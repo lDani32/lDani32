@@ -7,21 +7,23 @@ I have experience working at University of Barcelona as a researcher where, amon
 
 ## Project 1 – Sensorless BLDC ESC (3-phase motor controller)
 
-Custom 10–12 V ESC for a 3-phase BLDC motor, with trapezoidal commutation, BEMF zero-cross detection and a fully custom power PCB (MOSFET half-bridges + IR gate drivers + MSP432 interface).
+Custom 10–12 V ESC for a 3-phase BLDC motor, BEMF zero-cross detection and a fully custom power PCB (MOSFET half-bridges + IR gate drivers + MSP432 interface).
 
 ### PCB design
 
-<p align="center">
-  <img width="947" height="885" alt="BLDC_ESC_PCB_no_copper_pours" src="https://github.com/user-attachments/assets/5a45e7cd-4caf-4d5f-a25b-7334eb9a42b7" />
-  <br/>
-  <sub>BLDC ESC – early PCB layout without copper pours (routing of 3-phase power stage).</sub>
-</p>
+<div align="center">
 
-<p align="center">
-  <img width="939" height="832" alt="BLDC_ESC_PCB_with_copper_pours" src="https://github.com/user-attachments/assets/81cb04b5-ab3a-4611-ae83-d75f3cfae7a4" />
+  <img src="https://github.com/user-attachments/assets/5a45e7cd-4caf-4d5f-a25b-7334eb9a42b7" width="260" alt="BLDC ESC early PCB"/>
+  <img src="https://github.com/user-attachments/assets/81cb04b5-ab3a-4611-ae83-d75f3cfae7a4" width="260" alt="BLDC ESC final PCB"/>
+  <img src="https://github.com/user-attachments/assets/560e43db-410b-4f67-836b-2d16c32860f4" width="260" alt="ESC 3D render"/>
+
   <br/>
-  <sub>BLDC ESC – final PCB layout with copper pours and power planes.</sub>
-</p>
+
+  <sub>Early PCB layout</sub> &nbsp;&nbsp;&nbsp;
+  <sub>Final PCB with copper pours</sub> &nbsp;&nbsp;&nbsp;
+  <sub>3D PCB render</sub>
+
+</div>
 
 <p align="center">
   <img width="1108" height="816" alt="BLDC_ESC_schematic" src="https://github.com/user-attachments/assets/06dfbe08-ae32-4d78-b66b-c573f30089b8" />
@@ -29,25 +31,20 @@ Custom 10–12 V ESC for a 3-phase BLDC motor, with trapezoidal commutation, BEM
   <sub>Complete ESC schematic: MSP432, 3 half-bridges, gate drivers, BEMF network and protection.</sub>
 </p>
 
-<p align="center">
-  <img width="1018" height="858" alt="BLDC_ESC_render" src="https://github.com/user-attachments/assets/560e43db-410b-4f67-836b-2d16c32860f4" />
-  <br/>
-  <sub>3D render of the assembled ESC PCB.</sub>
-</p>
-
 ### Power stage and 3-phase behaviour (SPICE)
+#### 1 of the 12 simulations required to correctly size components and behaviour
 
-<p align="center">
-  <img width="1236" height="760" alt="BLDC_triphase_SPICE_commutation" src="https://github.com/user-attachments/assets/e7f65e2b-bf57-4eeb-9ee5-18740e3c51dc" />
-  <br/>
-  <sub>SPICE simulation of 3-phase commutation and phase voltages.</sub>
-</p>
+<div align="center">
 
-<p align="center">
-  <img width="777" height="689" alt="BLDC_triphase_SPICE_timing" src="https://github.com/user-attachments/assets/dfb3f54d-58ed-4c45-9674-a316a468eb06" />
+  <img src="https://github.com/user-attachments/assets/e7f65e2b-bf57-4eeb-9ee5-18740e3c51dc" width="380" alt="SPICE 3-phase commutation"/>
+  <img src="https://github.com/user-attachments/assets/dfb3f54d-58ed-4c45-9674-a316a468eb06" width="380" alt="SPICE timing"/>
+
   <br/>
-  <sub>Timing of the six-step commutation sequence for the BLDC.</sub>
-</p>
+
+  <sub>3-phase commutation (SPICE)</sub> &nbsp;&nbsp;&nbsp;
+  <sub>Six-step commutation timing</sub>
+
+</div>
 
 ### BEMF sensing and control
 
@@ -99,23 +96,19 @@ Mechatronic system that keeps a beam level using two BLDC motors, an IMU (sensor
 
 ### Custom PCBs (controller + sensor board)
 
-<p align="center">
-  <img width="620" height="598" alt="balancing_beam_main_pcb_assembled_overlay" src="https://github.com/user-attachments/assets/625918a6-6c2e-415e-9d22-1b8ad7f93fdd" />
-  <br/>
-  <sub>Main controller PCB (assembled) with silkscreen/overlay highlighting key blocks.</sub>
-</p>
+<div align="center">
 
-<p align="center">
-  <img width="660" height="597" alt="balancing_beam_main_pcb_kicad" src="https://github.com/user-attachments/assets/ccacbabb-4af1-4fe2-af70-d39bdeb8b68d" />
-  <br/>
-  <sub>Main controller PCB layout in KiCad (power, IMU, motor interfaces).</sub>
-</p>
+  <img src="https://github.com/user-attachments/assets/625918a6-6c2e-415e-9d22-1b8ad7f93fdd" width="260" alt="main pcb overlay"/>
+  <img src="https://github.com/user-attachments/assets/ccacbabb-4af1-4fe2-af70-d39bdeb8b68d" width="260" alt="main pcb kicad"/>
+  <img src="https://github.com/user-attachments/assets/59820dd1-77ea-420f-a7e6-0b56e28f2b9b" width="260" alt="sensor pcb overlay"/>
 
-<p align="center">
-  <img width="463" height="523" alt="balancing_beam_sensor_pcb_assembled_overlay" src="https://github.com/user-attachments/assets/59820dd1-77ea-420f-a7e6-0b56e28f2b9b" />
   <br/>
-  <sub>Dedicated IMU/sensor PCB (assembled) with overlay.</sub>
-</p>
+
+  <sub>Main PCB overlay</sub> &nbsp;&nbsp;&nbsp;
+  <sub>KiCad layout</sub> &nbsp;&nbsp;&nbsp;
+  <sub>IMU / sensor PCB</sub>
+
+</div>
 
 ### Final prototype
 
