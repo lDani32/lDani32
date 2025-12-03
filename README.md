@@ -1,7 +1,7 @@
 <h1 align="center">Hello World 👋, I'm Daniel Narbón</h1>
 <h3 align="center">A passionate electronics engineer from Barcelona, Spain</h3>
 
-I have experience working at University of Barcelona as a researcher where, among many other things, I contributed to [this paper](https://doi.org/10.1038/s41528-024-00374-4) on flexible electronics.
+I worked for 2 years at Fundació Bosh i Gimpera as an electronics engineer, among many other things, I co-authored to [this paper](https://doi.org/10.1038/s41528-024-00374-4) on flexible electronics.
 
 ---
 
